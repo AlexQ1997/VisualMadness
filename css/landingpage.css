@@ -1,0 +1,67 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.section-top{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url("lp4.jpg");
+  background-size: cover;
+  animation: slide 15s infinite;
+}
+header h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: #fff;
+}
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+.button a{
+  padding: 15px 24px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 3px;
+  color: #fff;
+  border: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s linear;
+}
+
+.button a:hover{
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+
+
+@keyframes slide {
+  0% {
+    background-image: url(../images/lp1.jpg);
+  }
+  33% {
+    background-image: url(../images/lp3.jpg);
+  }
+  67% {
+    background-image: url(../images/lp4.jpg);
+  }
+
+  80% {
+    background-image: url(../images/lp5.jpg);
+  }
+
+}

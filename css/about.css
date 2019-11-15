@@ -1,0 +1,96 @@
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #edc44a;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 20px 0 20px 20px;
+}
+
+header .logo {
+  font-size: 2rem;
+  margin-right: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  color:  #edc44a;
+}
+
+#top .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0px;
+  align-items: center;
+}
+
+#top .info {
+padding: 15px;
+position: relative;
+margin: 0 auto 0 auto;
+}
+
+
+#top .info p {
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  letter-spacing: .1rem;
+  line-height: 2;
+  color: #949494;
+  z-index: 1;
+  position: relative;
+  width:  600px;
+  color:  #edc44a;
+}
+
+
+#top .info a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 8px;
+  letter-spacing: .2rem;
+  z-index: 1;
+  position: relative;
+}
+
+#top .self_portrait .background-img {
+  background: url('../images/nat-ver10.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 600px;
+  height: 800px;
+}
+footer {
+    padding: 15px;
+}
+
+footer .social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto 0 auto;
+}
+
+footer .social-container a {
+  font-size: 3rem;
+   color: #e0bb20;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+footer .social-container a:hover {
+  color: rgba(255,53,53,1);
+}

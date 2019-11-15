@@ -1,0 +1,101 @@
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #edc44a;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 20px 0 20px 20px;
+}
+
+header .logo {
+  font-size: 2rem;
+  margin-right: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  color:  #edc44a;
+}
+
+
+
+#contact-me {
+  padding: 80px 0;
+  text-align: center;
+  align-content: center;
+}
+
+.contact {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+  align-content: center;
+}
+
+.contact h1{
+  color:  #edc44a;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.inner {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.name,.email,.message {
+  background: #;
+  border: 1px solid;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #000;
+  padding: 20px 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.name {
+  float: left;
+  width: 100%;
+}
+
+.email {
+  float: left;
+  width: 100%;
+}
+
+.message {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#contact-me button {
+  background: none;
+   color:  #edc44a;
+  border: 2px solid;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+#contact-me button:hover {
+  background-color: #edc44a;
+  color: #fff;
+  border: none;
+}

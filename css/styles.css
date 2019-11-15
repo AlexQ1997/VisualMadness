@@ -1,0 +1,123 @@
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C7C44A;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 20px 0 20px 20px;
+}
+
+header .logo {
+  font-size: 2rem;
+  margin-right: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+  color: #C7C44A;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+ .gallery {
+   display: grid;
+   background-color: #000;
+   width: 100%;
+   height: 100vh;
+   grid-gap: 5px;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(6, 1fr);
+ }
+
+ .gallery div {
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+.one {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 2;
+  grid-row: span 2;
+  background-image: url("../images/nature-hor1.jpg");
+}
+.two {
+  grid-column: 4 / span 2;
+  grid-row: 3 /span 2;
+  background-image: url("../images/nature-hor2.jpg");
+}
+.three {
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 2;
+  background-image: url("../images/nature-hor5.jpg");
+}
+.four {
+  grid-column: 3/ span 2;
+  grid-row: 1 / span 2;
+  background-image: url("../images/nature-hor6.jpg");
+}
+.five {
+  grid-column: 5 / span 1;../images/
+  grid-row: 1/ span 2 ;
+  background-image: url("../images/nat-ver2.jpg");
+}
+.six {
+  grid-column: 1/ span 1;
+  grid-row: 3 / span 2;
+  background-image: url("../images/nat-ver6.jpg");
+}
+.seven {
+  grid-column: 2/ span 1;
+  grid-row: 3 / span 2;
+  background-image: url("../images/nat-ver7.jpg");
+}
+.eight {
+  grid-column: 3/ span 1;
+  grid-row: 3 / span 2;
+  background-image:url("../images/nat-ver9.jpg");
+}
+.ten {
+  grid-column: 5/ span 1;
+  grid-row: 5 / span 2;
+  background-image: url("../images/nat-ver10.jpg");
+}
+.eleven {
+  grid-column: 4/ span 1;
+  grid-row: 5 / span 2;
+  background-image: url("../images/nat-ver4.jpg");
+}
+.twelve {
+  grid-column: 3/ span 1;
+  grid-row: 5/ span 2;
+  background-image: url("../images/nat-ver8.jpg");
+}
+
+footer {
+    padding: 15px;
+}
+
+footer .social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto 0 auto;
+}
+
+footer .social-container a {
+  font-size: 3rem;
+   color: #e0bb20;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+footer .social-container a:hover {
+  color: rgba(255,53,53,1);
+}
